@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>helados</title>
+</head>
+<body>
+    <script>
+        var i,edades,triple=[],gratis=[],itriple,igratis;
+        itriple=0;
+        igratis=0;
+        for(i=1;i<=5;i++)
+    {
+            edades=prompt("ingresa la edad");
+            if(edades<10)
+                {
+                    gratis[igratis]=edades;
+                    igratis++;
+                }
+            if(edades>=10)
+                {
+                    triple[itriple]=edades;
+                    itriple++;
+                }
+    }
+    document.write("helados gratis"+gratis);
+    document.write("<br>");
+    document.write("helados al triple"+triple);
+    </script>
+</body>
+</html>
